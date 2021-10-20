@@ -5,14 +5,14 @@ public class GorillaTest {
 	public static void main(String[] args) {
 		Gorilla albert = new Gorilla();
 		
-		albert.throwSomething();
-		albert.throwSomething();
-		albert.throwSomething();
-		
-		albert.eatBananas();
-		albert.eatBananas();
-		
-		albert.climb();
+		System.out.println(albert.throwSomething());
+		System.out.println(albert.throwSomething());
+		System.out.println(albert.throwSomething());
+				
+		System.out.println(albert.eatBananas());
+		System.out.println(albert.eatBananas());
+				
+		System.out.println(albert.climb());
 		
 		
 		albert.displayEnergy();
